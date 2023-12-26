@@ -1,0 +1,380 @@
+* {
+    background-color:#e8f3f0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    text-align: center;
+}
+.contaner {
+    width: 100%;
+    overflow: hidden;
+    padding: 150px 0px;
+    
+}
+.contant {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+.contaner .desc {
+    width: 442px;
+    margin: 0;
+    float: left;
+    text-align: left;
+    
+}
+.contaner .desc h1{
+    font-size: 50px;
+    margin: 0;
+    color: #2863e4;
+    
+}
+.contaner .desc p {
+    color:rgb(12, 10, 10);
+    line-height: 1.2;
+    overflow: hidden;
+    font-size: 24px;
+    font-weight: 600;
+}
+.contaner .form {
+    float: right;
+    width: 420px;
+    overflow: hidden;
+    
+}
+
+.contaner .form .form-inside{
+    margin: 0; 
+    width: 100%;
+    border: 1px solid rgb(243, 241, 241);
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 9px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    height: 370px;
+    
+}
+.contaner .form form{
+    position: relative;
+    overflow: hidden;
+}
+.contaner form .form-inside {
+    width: 85%;
+    padding: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.form form .input {
+    width: 100%;
+    position: relative;
+    height: 50px;
+    padding: 5px 10px;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    
+}
+
+
+.contaner .form form button {
+    background-color: #2863e4;
+    color: #fff;
+    font-size: 25px;
+}
+.contaner .form form a {
+    background-color: #fff;
+    margin: 20px auto;
+    color: #2863e4;
+    text-decoration: none;
+    padding: 5px 10px;
+    
+    display: block;
+}
+.contaner .form  input-width {
+    display: block;
+    margin: 10px 0;
+    border-color: rgb(112, 49, 49);
+    
+}
+.contaner .form form .create-account {
+    background-color: rgb(14, 226, 50);
+    height: 50px;
+    padding: 10px 0px;
+    width: 210px;
+    border-radius: 5px;
+    border:1px solid rgb(14, 226, 50);
+    color:#fff;
+    font-size: 20px;
+    margin: 15px auto;
+    text-decoration: none;
+}
+
+
+.contaner .form .create-page {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+.contaner .form .create-page a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/* start  create new account */
+
+.contaner-new-account {
+    z-index: 5;
+    width: 100%;
+    height: 146%;
+    background-color: rgba(255, 255, 255, 0.719) ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.display-none {
+    display: none;
+}
+.contaner-new-account .contant,
+.contaner-new-account .heead,
+.contaner-new-account .contant form{
+    background-color: #fff;
+    color: rgb(173, 173, 173);
+}
+.contaner-new-account .heead .close {
+    position: absolute;
+    right: 35%;
+    top: 90px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    color: #3a3939;
+    background-color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 0;
+    font-family: monospace;
+    
+
+}
+
+.contaner-new-account .contant {
+    width: 443.156px;
+    height: 500px;
+    margin: 80px auto;
+    border: 1px solid rgb(223, 222, 222);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.contaner-new-account .heead{
+    border-bottom: 1px solid rgb(173, 173, 173);
+    padding: 10px;
+    margin: 0px 0;
+}
+.contaner-new-account .heead h1 {
+    color : rgb(34, 33, 33);
+    text-align: left;
+    background-color: #fff;
+    margin: 0;
+    padding: 0 0 5px 0 ;
+}
+.contaner-new-account .heead p {
+    background-color: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 0px 0px;
+}
+.contaner-new-account form {
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+.contaner-new-account form .input {
+    width: 100%;
+    height: 50px;
+    margin: 2px auto;
+    padding: 5px 0;
+    text-align: left;
+    background-color: #fff;
+
+
+}
+.contaner-new-account form .name {
+    height: 40px;
+    width: 48%;
+    padding: 5px;
+    border: 1px solid #b2b4b4;
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+
+
+.contaner-new-account form .name:first-of-type {margin-right: 5px;}
+.contaner-new-account form .name:last-of-type {margin-left: 5px;}
+
+.contaner-new-account form .input-type{
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #b2b4b4;
+    border-radius: 5px;
+    background-color:#eeeeee;
+}
+
+.contaner-new-account .input .tray {
+    width: 31.85%;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #b2b4b4;
+    border-radius: 5px;
+    margin: 5px 0;
+    
+}
+
+.contaner-new-account .input label {
+    color:rgb(44, 43, 43);
+    background-color: #fff;
+    display: block;
+    width: 100%;
+}
+.display-inline {
+    display: inline-block;
+
+}
+
+.contaner-new-account .display-inline label {
+    margin: 10px 10px;
+    width: 50px;
+    margin-right: 0px;
+    
+    display: inline-block;
+
+}
+
+.contaner-new-account .display-inline input {
+    margin: 15px auto;
+    margin-right: 10px;
+    float: right;
+
+}
+.contaner-new-account .input input:first-of-type {
+    margin-right: 5px ;
+}
+.contaner-new-account .input input:last-of-type {
+    margin-left: 5px ;
+}
+
+.contaner-new-account .input p {
+    color:rgb(100, 99, 99);
+    background-color: #fff;
+    width: 100%;
+    padding: 5px 0px;
+    padding: 10px 0;
+    font-size: 12px;
+    
+    
+}
+.contaner-new-account .input p a {
+    color:rgb(62, 42, 248);
+    background-color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+}
+.contaner-new-account .input p a:hover{
+    text-decoration: underline;
+}
+
+.contaner-new-account button {
+    margin: 15px auto;
+    width: 50%;
+    height: 35px;
+    background-color: rgb(6, 179, 6);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid rgb(6, 179, 6);
+    border-radius: 5px;
+    
+}
+
+.error {
+    border: 1px solid rgb(241, 8, 8);
+
+}
+/* end  create new account */
+/* footer */
+.footer {
+    background-color: #fff;
+    width: 100%;
+    height: 200px;
+    padding: 40px 0px;
+    color: rgb(141, 138, 138);
+    text-align: center;
+    
+}
+.footer .contant{
+    background-color: #fff;
+    width: 80%;
+    margin: 0px auto;
+    text-align: left;
+
+}
+.footer .contant .lang,
+.footer .contant .related,
+.footer .contant p { background-color: #fff; }
+
+.footer .contant .lang-style {
+    background-color: #fff;
+    font-size: 15px;
+    color: rgb(141, 138, 138);
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer .contant .lang-style:hover{
+    text-decoration: underline;
+}
+.footer .contant p {
+    margin:20px 5px ; 
+    font-size: 13px;
+    color: #606160;
+}
+
+/* respnseve */
+
+@media screen and (max-width:900px){
+    body{
+        min-width: 505px;
+    }
+    .contaner{
+        margin: 0 auto;
+    }
+    .contaner .desc {
+        margin: 0 auto;
+        text-align: center;
+        width: 442px;
+    }
+    .contaner .desc p {
+        width: 100%;
+        
+    }
+    .contaner .form {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 442px;
+        float: left;
+    
+    }
+    .footer {
+        height: 350px;
+        padding: 40px;
+        
+    }
+
+}
